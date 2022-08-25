@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background: url('') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.jumbotron {
+    color: white;
+    background: none;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%);
+	padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.nav {
+	background: none;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%);
+}
+
+.change-dropdown-menu {
+	background: none;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%);
+}
+
+.dropdown-item:hover {
+    color: white;
+	background: none;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%);
+}
+
+a:link, a:visited {
+	color: white;   
+}
+
+a:hover {
+    background: none;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%);
+}
+
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+ 
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
